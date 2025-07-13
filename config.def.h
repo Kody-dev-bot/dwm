@@ -14,13 +14,13 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 2;        /* 2 is the default spacing around the bar's font */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[]          = { "Hack Nerd Font Mono:size=18" };
-static const char col_bg[]       = "#282a36";
-static const char col_fg[]       = "#f8f8f2";
-static const char col_sel_fg[]   = "#f8f8f2";
-static const char col_sel_bg[]   = "#bd93f9";
-static const char col_hid_fg[]   = "#6272a4";
-static const char col_hid_bg[]   = "#21222c";
-static const char col_urg_fg[]   = "#ff5555";
+static const char col_bg[]       = "#121212";    // 极暗的背景色
+static const char col_fg[]       = "#b3b3b3";    // 柔和的前景色
+static const char col_sel_fg[]   = "#121212";    // 选中项前景色（与背景色对比）
+static const char col_sel_bg[]   = "#e6b800";    // 暖黄色作为强调色
+static const char col_hid_fg[]   = "#595959";    // 隐藏窗口的前景色
+static const char col_hid_bg[]   = "#0d0d0d";    // 隐藏窗口的背景色
+static const char col_urg_fg[]   = "#ff4d4d";    // 紧急提示色
 static const char *colors[][3]      = {
     /*               fg         bg         border   */
     [SchemeNorm] = { col_fg, col_bg, col_hid_fg },
